@@ -12,6 +12,7 @@ export default class CardBack extends Component {
 
   generateRatingElement = () => {
     // implement meeeee! See the readme for instructions
+    <div className="card-front" style={{backgroundImage: `url(${''+{imgMapper[this.props.rating]}+''})`}}>
   }
 
   render() {
