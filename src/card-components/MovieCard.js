@@ -45,4 +45,5 @@ MovieCard.defaultProps = {
   poster: posterMap['default']
   title: 'Unknown'
   IMDBRating: null
+  genres: []
 }
